@@ -56,6 +56,7 @@ ol {
 }
 
 .hero {
+    max-width: 1600px;
     padding: 94px 0px;
     margin: auto;
     padding-top: 200px;
@@ -109,6 +110,15 @@ ol {
     display: flex;
     gap: 50px;
 }
+
+.header-icon::before {
+    content: "";
+    height: 12px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+} 
 
 .header-list {
     display: flex;
@@ -245,7 +255,6 @@ ol {
     background-color: #FFFFFF;
     padding: 0;
 }
-
 .about-title {
     font-size: 14px;
     line-height: 1.14;
@@ -275,7 +284,30 @@ ol {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--about-text-color);
+}
 
+.section-item::before {
+content: "";
+height: 120px;
+display: block;
+margin-bottom: 30px;
+background-color: #F5F4FA;
+border-radius: 4px;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.icon-antenna::before {
+    background-image: url(../images/antenna1.png);
+}
+.icon-clock::before {
+    background-image: url(../images/clock1.png);
+}
+.icon-diagram::before {
+    background-image: url(../images/diagram1.png);
+}
+.icon-astronaut::before {
+    background-image: url(../images/astronaut1.png);
 }
 
 .section-title {
