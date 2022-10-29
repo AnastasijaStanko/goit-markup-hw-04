@@ -198,6 +198,7 @@ ol {
     letter-spacing: 0.02em;
 }
 
+
 .link-mail {
     font-weight: 500;
     color: var(--about-text-color);
@@ -245,6 +246,17 @@ ol {
     border-radius: 4px;
     min-width: 216px;
     height: 50px;
+}
+
+.visually-hidden {
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section-about {
