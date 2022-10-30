@@ -86,6 +86,9 @@ ol {
     margin-bottom: 50px;
 }
 
+.container-items .btn-items:hover {
+color: #FFFFFF;
+}
 .logo {
     margin-right: 93px;
 }
@@ -131,14 +134,53 @@ ol {
             color: var(--main-title-color);
         }
 
-        .header-nav {
+        
+        
+        .header-icon {
+            display: inline-block;
             margin-left: auto;
             display: flex;
             align-items: center;
             gap: 50px;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+            display: flex;
+            gap: 50px;
+            color: var(--about-text-color);
+            
+        }
+        .link-mail::before {
+            content: '';
+            background-image: url(../images/envelope.jpg);
+            color: var(--about-text-color);
+            width: 16px;
+            height: 12px;
+            color: currentColor;
         }
         
+        
+        .link-logo-tel::before {
+            content: '';
+            background-image: url(../images/smartphone.jpg);
+            width: 10px;
+            height: 16px;
+            color: currentColor;
+        }
 
+        .link-mail:hover::before {
+            fill: var(--main-btn-color);
+        }
+
+        .link-header {
+            display: flex;
+            gap: 30px;
+        }
+
+        .container-items .button:hover, .container:focus {
+            background-color: var(--main-btn-color);
+            color: var(--secondary-title-color);
+        }
         .link-mail, .link-logo-tel {
             font-weight: 500;
             line-height: calc(16 / 14);
@@ -170,9 +212,7 @@ ol {
         border-radius: 4px;
         }
 
-        .button:hover, .button:focus {
-            background-color: var(--main-btn-color);  
-        }
+        
         .nav-link:hover, :focus {
             color: var(--main-btn-color);
         }
