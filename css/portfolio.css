@@ -177,7 +177,7 @@ color: #FFFFFF;
             gap: 30px;
         }
 
-        .container-items .button:hover, .container:focus {
+        .container-items .button:hover {
             background-color: var(--main-btn-color);
             color: var(--secondary-title-color);
         }
