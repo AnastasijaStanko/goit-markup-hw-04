@@ -137,13 +137,13 @@ color: #FFFFFF;
         
         
         .header-icon {
-            display: inline-block;
+            
             margin-left: auto;
             display: flex;
             align-items: center;
             gap: 50px;
             align-items: center;
-            justify-content: center;
+           
             margin-left: auto;
             display: flex;
             gap: 50px;
@@ -174,7 +174,8 @@ color: #FFFFFF;
 
         .link-header {
             display: flex;
-            gap: 30px;
+            gap: 10px;
+            align-items: center;
         }
 
         .container-items .button:hover {

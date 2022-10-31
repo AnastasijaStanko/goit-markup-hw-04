@@ -105,36 +105,34 @@ ol {
     color: var(--main-btn-color);
 }
 
-.header-icon {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
+.header-icon {       
     margin-left: auto;
     display: flex;
+    align-items: center;
     gap: 50px;
-    color: var(--about-text-color);
+    align-items: center;
+
+    color: var(--about-text-color)
     
 }
 
-.link-mail::before {
-    content: '';
-    background-image: url(../images/envelope.jpg);
-    color: var(--about-text-color);
-    width: 16px;
-    height: 12px;
+.header-icon:focus, .header-icon:hover {
+    color: var(--main-btn-color);
+    fill: var(--main-btn-color);
+}
+
+.icon-list {
+    display: flex;
+}
+.envelope {
+    margin-right: 10px;
+    color: currentColor;
+}
+.smartphone {
+    margin-right: 10px;
     color: currentColor;
 }
 
-.link-logo-tel::before {
-    content: '';
-    background-image: url(../images/smartphone.jpg);
-    width: 10px;
-    height: 16px;
-    color: currentColor;
-}
-.link-mail:hover::before {
-    fill: var(--main-btn-color);
-}
 
 .header-list {
     display: flex;
@@ -306,7 +304,8 @@ ol {
 
 .link-header {
     display: flex;
-    gap: 30px;
+    gap: 10px;
+    align-items: center;
 }
 .section-item {
     width: 270px;
@@ -343,7 +342,6 @@ background-position: center;
 }
 
 .section-title {
- 
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -438,7 +436,7 @@ background-position: center;
 
 .clients-list {
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 .clients-items {
@@ -489,8 +487,8 @@ background-position: center;
 
 .footer-container {
     display: flex;
-
     background-color: #2F303A;
+
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -545,7 +543,7 @@ color: var(--secondary-title-color);
 .footer-soc-link {
     display: flex;
 }
-.soc-footer-items {
-display: inline-block;
-margin-left: 878px;
+
+.soc-section {
+    display: flex;
 }
