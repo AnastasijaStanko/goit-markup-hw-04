@@ -210,7 +210,11 @@ ol {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-
+.link-header {
+display: flex;
+align-items: center;
+gap: 10px;
+}
 
 .link-mail {
     font-weight: 500;
@@ -300,10 +304,6 @@ ol {
     gap: 30px;
 }
 
-
-.section-item {
-    width: 270px;
-}
  
 .section-text {
     line-height: 1.71;
@@ -311,29 +311,21 @@ ol {
     color: var(--about-text-color);
 }
 
-.section-item::before {
-content: "";
+.section-item {
+width: 270px;
 height: 120px;
 display: block;
 margin-bottom: 30px;
 background-color: #F5F4FA;
 border-radius: 4px;
-background-repeat: no-repeat;
-background-position: center;
+
 }
 
-.icon-antenna::before {
-    background-image: url(../images/antenna1.png);
-}
-.icon-clock::before {
-    background-image: url(../images/clock1.png);
-}
-.icon-diagram::before {
-    background-image: url(../images/diagram1.png);
-}
-.icon-astronaut::before {
-    background-image: url(../images/astronaut1.png);
-}
+.icon-items {
+    width: 70px;
+    height: 70px;
+
+} 
 
 .section-title {
     font-size: 36px;
@@ -481,10 +473,11 @@ background-position: center;
 
 .footer-container {
     display: flex;
+    height: 252px;
     background-color: #2F303A;
-
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 215px;
 }
 .container-wrap {
     width: 1200px;
@@ -540,4 +533,9 @@ color: var(--secondary-title-color);
 
 .soc-section {
     display: flex;
+    margin-top: 22px;
+}
+
+.footer-items {
+    margin-right: 70px;
 }
