@@ -100,6 +100,7 @@ ol {
 
 .header-container {
     display: flex;
+    margin-right: auto;
 }
 .header-list .nav-link.current {
     color: var(--main-btn-color);
@@ -122,11 +123,19 @@ ol {
 
 .icon-list {
     display: flex;
+    gap: 30px;
 
 }
 
 .envelope {
+    width: 16px;
+    height: 12px;
     color: currentColor;
+}
+
+.smartphone {
+    width: 16px;
+    height: 12px;
 }
 
 .header-list {
@@ -293,7 +302,6 @@ gap: 10px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
-    display: flex;
 }
 .section-upper {
     display: flex;
@@ -311,13 +319,15 @@ gap: 10px;
     color: var(--about-text-color);
 }
 
+
 .section-item {
-width: 270px;
 height: 120px;
-display: block;
+display: flex;
 margin-bottom: 30px;
 background-color: #F5F4FA;
 border-radius: 4px;
+align-items: center;
+justify-content: center;
 
 }
 
@@ -375,7 +385,7 @@ border-radius: 4px;
     height: 44px;
 }
 
-.team-soc-link:hover {
+.team-soc-link:hover, .team-soc-link:focus {
     background-color: var(--main-btn-color);
     fill: var(--secondary-title-color);
 }
