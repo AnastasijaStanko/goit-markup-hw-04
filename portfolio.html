@@ -22,9 +22,19 @@
                     <li><a class="nav-link link" href="">Контакти</a></li>
                 </ul>
             </nav>
-            <ul class="header-icon list">
-                <li><a class="link-mail link link-header" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link-logo-tel link link-header" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="icon-list list">
+                <li class="header-icon">  
+                    <a class="link-mail link link-header" href="mailto:info@devstudio.com">
+                        <svg class="envelope" wight="16" height="12">
+                        <use href="./images/symbol-defs-header.svg#icon-envelope-hover-1"></use>
+                    </svg>info@devstudio.com</a>   
+                </li>
+                <li class="header-icon">
+                     <a class="link-logo-tel link link-header" href="tel:+380961111111">
+                        <svg class="smartphone" wight="16" height="12">
+                        <use href="./images/symbol-defs-header.svg#icon-smartphone-1"></use>
+                    </svg>+38 096 111 11 11</a> 
+                </li>
             </ul>
         </div>
     </header>
@@ -32,7 +42,7 @@
         <section class="section">
             <h1 class="visually-hidden">Перелік послуг</h1>
             <div class="container">
-                <ul class="header-navigation list">
+                <ul class="header-btn-navigation list">
                     <li class="btn-items">
                         <button type="button" class="filter-button">Усі</button>
                     </li>
@@ -119,8 +129,8 @@
         </main>
         
         <footer class="footer-container">
-            <div class="footer-items">
-                <section class="online-section">
+            <div class="footer-items container">
+                
                     <a class="logo-footer logo-link link" href="/index.html">Web<span class="logo-header-footer">Studio</span></a>
                                  <ul class="footer-list list">
                                     <li>
@@ -130,11 +140,9 @@
                                     <li>
                                         <a class="footer-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                                 </ul>
-                </section>        
+                 
             </div>
-            
-                <section class="soc-section">
-                   <div class="">
+                   <div class="soc-item-container">
                         <p class="soc-footer">Приєднуйтесь</p>
                     <ul class="footer-soc-link">
                         <li class="soc-items list"><a href="" class="team-soc-link">
@@ -159,7 +167,7 @@
                         </a></li>
                     </ul>
                    </div>
-                </section>
-    </footer>
+               
+    </footer> 
 </body>
 </html>
