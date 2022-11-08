@@ -530,5 +530,8 @@ color: var(--secondary-title-color);
 }
 
 .footer-items {
-    margin-right: 70px;
+ display: flex;
+ align-items: baseline;
+ gap: 70px;
+    
 }

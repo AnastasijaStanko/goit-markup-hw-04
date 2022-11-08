@@ -165,6 +165,7 @@ color: #FFFFFF;
             color: var(--about-text-color);
             
         }
+        
         .header-icon {       
             margin-left: auto;
             display: flex;
@@ -183,7 +184,6 @@ color: #FFFFFF;
         .icon-list {
             display: flex;
             gap: 30px;
-        
         }
         
         .envelope {
@@ -196,8 +196,6 @@ color: #FFFFFF;
             width: 16px;
             height: 12px;
         }
-
-        
 
         .link-header {
             display: flex;
